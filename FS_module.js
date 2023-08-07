@@ -65,11 +65,12 @@ fs.rename(filePath, newFilePath, function(err) {
 
 // Read the contents from {your_name}.js. User fs.open or fs.readFile
 
-fs.readFile('/home/tech/Node.js_Assignment1/Students/Kalu_Amarachi.js', (err, data)=>{
+fs.readFile(newFilePath, 'utf8', (err, data)=>{
     if(err) {
         console.log(err)
         return
     }
+    console.log('File read succesfully')
     console.log(data)
 })
 // Delete the file {your_name}.js
