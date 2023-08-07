@@ -11,5 +11,8 @@
     "url": "Amiekay"
   },
   "author": "Amarachi Kalu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
